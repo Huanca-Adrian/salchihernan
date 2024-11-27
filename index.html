@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Salchipalacio de Hernán</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display:wght@700&family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css"> <!-- Estilos personalizados adicionales -->
+
+</head>
+
+<body>
+    <!-- Navbar personalizado -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand mx-auto fw-bold" href="#a">El Salchipalacio de Hernán</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#menu">Menú</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#promos">Promociones</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección de inicio personalizada -->
+    <section id="inicio" class="hero d-flex align-items-center justify-content-center text-center">
+        <div class="container">
+            <img src="img/salchis.jpg" alt="Salchipalacio" class="img-fluid rounded-circle mb-4 animate__animated animate__fadeInDown" style="width: 250px; height: 250px;">
+            <h1 class="display-3 animate__animated animate__fadeIn animate__delay-1s">¡El Reino de las Salchipapas!</h1>
+            <p class="lead animate__animated animate__fadeIn animate__delay-2s">Conquista tu hambre en El Salchipalacio de Hernán</p>
+            <a href="#menu" class="btn btn-warning btn-lg mt-4 animate__animated animate__zoomIn animate__delay-3s">Ver Menú</a>
+        </div>
+    </section>
+
+    <!-- Sección de Menú con nuevos estilos -->
+    <section id="menu" class="py-5 bg-light">
+        <div class="container text-center">
+            <h2 class="mb-4 fw-bold text-danger">Nuestro Menú</h2>
+            <p class="mb-5 text-muted">Sabores irresistibles que te harán volver</p>
+            <div id="menuCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner shadow-lg rounded">
+                    <div class="carousel-item active">
+                        <img src="img/salchipapa-clasica.jpeg" class="d-block w-100" alt="Salchipapa Clásica">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Salchipapa Clásica</h5>
+                            <p>Crocante y deliciosa</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/descarga (4).jpeg" class="d-block w-100" alt="Salchipapa Suprema">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Salchipapa Suprema</h5>
+                            <p>Con queso, salsa y más</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/bebidas-nuevas.jpeg" class="d-block w-100" alt="Bebidas">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Bebidas</h5>
+                            <p>Acompaña tu plato con algo refrescante</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#menuCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#menuCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Promociones con estilo único -->
+    <section id="promos" class="py-5 bg-warning text-dark">
+        <div class="container text-center">
+            <h2 class="mb-4 fw-bold">Promociones del Mes</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/promo1-nueva.jpg" class="card-img-top promo-img" alt="Promo 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Combo Familiar</h5>
+                            <p class="card-text">Salchipapas para 4 con bebida grande</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/promo2-nueva.jpeg" class="card-img-top promo-img" alt="Promo 2">
+                        <div class="card-body">
+                            <h5 class="card-title">2x1 en Bebidas</h5>
+                            <p class="card-text">Solo los viernes</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/promo3-nueva.webp" class="card-img-top promo-img" alt="Promo 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Salchipapa Jumbo</h5>
+                            <p class="card-text">¡Perfecta para los más hambrientos!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="py-5 bg-dark text-white">
+        <div class="container text-center">
+            <h2 class="mb-4 fw-bold">Contáctanos</h2>
+            <p class="mb-4">¡Envía tu mensaje o haz tu pedido ahora!</p>
+            <form action="#" method="post">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <input type="text" class="form-control mb-3" placeholder="Tu Nombre" required>
+                    </div>
+                    <div class="col-lg-6">
+                        <input type="email" class="form-control mb-3" placeholder="Tu Correo Electrónico" required>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <textarea class="form-control" rows="4" placeholder="Tu Mensaje" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-danger btn-lg">Enviar</button>
+            </form>
+            <!-- Redes Sociales -->
+            <div class="social-icons mt-4">
+                <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-danger text-white text-center py-3">
+        <p>&copy; 2024 El Salchipalacio de Hernán. Todos los derechos reservados.</p>
+        <p>Dirección: Landaeta, La Paz, Bolivia</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

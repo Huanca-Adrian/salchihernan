@@ -1,0 +1,156 @@
+/* General */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff; /* Blanco */
+}
+
+/* Sección hero (inicio) */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(204, 13, 13, 0.7)), url('fondo.jpg') center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: #FF5733; /* Rojo vivo */
+}
+
+.hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+#a{
+    background-color: #ffffff;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #dc1717; /* Rojo oscuro */
+}
+.navbar {
+    background-color: #000000; /* Azul oscuro */
+}
+.navbar a {
+    text-decoration: none;
+    color: #FF5733; /* Rojo brillante */
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #FFC300; /* Amarillo cálido */
+    transform: scale(1.1);
+}
+
+/* Título del menú */
+#menu h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    color: #FF5733; /* Rojo brillante */
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.transition-img:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+/* Footer */
+footer {
+    background-color: #800000; /* Rojo oscuro */
+    color: #FF5733; /* Rojo brillante */
+    padding: 20px;
+}
+h5{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    color: #FFC300;
+    background-color: #f8f8f8;
+    text-decoration-color: #FFC300;
+}
+.social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.social-icons a:hover {
+    color: #FFB74D;
+}
+.navbar {
+    background-color: #FF6F61;
+}
+.navbar-brand {
+    font-family: 'Lobster', sans-serif;
+    color: #fff !important;
+}
+.nav-link {
+    color: #fff !important;
+}
+.nav-link:hover {
+    color: #FFB74D !important;
+}
+.hero {
+    background-color: #FF6F61;
+    color: #fff;
+}
+.hero h1, .hero p {
+    font-family: 'Lobster', sans-serif;
+}
+.btn-warning {
+    background-color: #FFB74D;
+    border-color: #FFB74D;
+}
+.btn-warning:hover {
+    background-color: #FF7043;
+    border-color: #FF7043;
+}
+.carousel-caption h5, .carousel-caption p {
+    color: #FF6F61;
+}
+footer {
+    background-color: #FF6F61;
+    color: #fff;
+}
+footer p {
+    margin: 0;
+}
+/* Redes sociales */
+.social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.social-icons a:hover {
+    color: #FFB74D;
+}
+#menuCarousel .carousel-item img {
+    width: 100%; /* Ancho completo del contenedor */
+    height: 400px; /* Altura fija */
+    object-fit: cover; /* Cubrir el espacio sin distorsionar */
+}
+
+/* Ajustes para imágenes de promociones */
+.promo-img {
+    width: 100%; /* Ajustar a 100% del contenedor */
+    height: 200px; /* Altura fija */
+    object-fit: cover; /* Ajustar imagen dentro del espacio */
+}
+
+/* Redes sociales */
+.social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #FFB74D;
+}
